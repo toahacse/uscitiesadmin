@@ -1,0 +1,28 @@
+{
+    "name": "toaha/uscitiesadmin",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MD. Ismat Toaha",
+            "email": "toahacse@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Toaha\\UsCitiesAdmin\\": "src"
+        }
+    },
+    "extra": {
+        "copyright": "",
+        "laravel": {
+            "providers": [
+                "Toaha\\UsCitiesAdmin\\Providers\\UsCitiesAdminServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
